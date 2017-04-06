@@ -1,0 +1,28 @@
+/*
+  Template 2 Bootstrap
+  Autor: LUCODEVELOPER.COM
+  Version: 0.0.1
+*/
+
+/* BASE - Estilo de bases, variables, mixins, etc*/
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_normalize.scss';
+@import 'base/_base.scss';
+
+/*MODULOS - Componentes de sitio individuales*/
+
+@import 'modules/_typography.scss';
+@import 'modules/_blocks.scss';
+@import 'modules/_buttons.scss';
+@import 'modules/_sections.scss';
+@import 'modules/_components.scss';
+@import 'modules/_forms.scss';
+
+/* LAYOUTS - Estilos de capas de Paginas*/
+
+@import 'layouts/_nav.scss';
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
+@import 'layouts/_blog.scss';
+@import 'layouts/_mobile.scss';
